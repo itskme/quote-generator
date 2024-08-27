@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'alk';
+    src: url(alkes.ttf);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'alk', Courier, sans-serif;
+    background-color: #ffffff;
 }
 
 .quote-container {
@@ -24,3 +29,17 @@ body {
     color: #666;
 }
 
+#generate-btn {
+    background-color: #4ca3af;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'alk', Courier, monospace;
+}
+
+#generate-btn:hover {
+    background-color: #3e5e8e;
+}
